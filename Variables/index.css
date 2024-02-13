@@ -1,0 +1,18 @@
+body {
+  background-color: brown;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+button {
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+button:hover {
+  background-color: blueviolet;
+  color: white;
+}

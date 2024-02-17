@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(17, 11, 11);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+}
+
+.counter-btns {
+  display: flex;
+  gap: 2rem;
+}
+
+.counter-btns button {
+  cursor: pointer;
+  width: 100px;
+  font-size: 3rem;
+}
+
+.counter-btns button:hover {
+  background-color: rgba(243, 219, 219, 0.884);
+}
+
+.increment {
+  background-color: rgb(40, 228, 40);
+}
+
+.decrement {
+  background-color: red;
+}
+
+.auto-count {
+  cursor: pointer;
+  padding: 1rem;
+  background-color: rgb(90, 11, 37);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
+
+.auto-count:hover {
+  background-color: rgb(136, 23, 60);
+}
